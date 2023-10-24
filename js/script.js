@@ -46,4 +46,102 @@ $(document).ready(function(){ // begin document.ready block
 		.setTween(tween)
 		.addTo(controller);
 
+
+	// MAP
+
+	var map = L.map('map', {
+		minZoom: 3,
+		zoomControl: false
+	}).setView([32.6142717,-39.7266562], 3);
+
+	// var pane = map.createPane('boundary', document.getElementById('map'));
+
+	map.createPane('labels');
+	map.getPane('labels').style.zIndex = 650;
+
+	var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+        attribution: '&copyOpenStreetMap, &copyCartoDB'
+	}).addTo(map);
+
+	var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
+	    attribution: '&copyOpenStreetMap, &copyCartoDB',
+	    pane: 'labels'
+	}).addTo(map);
+
+	map.touchZoom.disable();
+	map.doubleClickZoom.disable();
+	map.scrollWheelZoom.disable();
+	map.boxZoom.disable();
+	map.keyboard.disable();
+
+
+	$.get('timeline.csv', function(csvString) {
+
+			// Use PapaParse to convert string to array of objects
+	    	var timeline = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
+
+	    	var timeline_counter = 0
+
+	    	console.log(timeline.length)
+	    	console.log(timeline_counter)
+
+	    	$(".next").on("click", function(){
+
+	    		if (timeline_counter < timeline.length-1) {
+	    			timeline_counter++;
+	    			console.log(timeline[timeline_counter].title)
+	    			console.log(timeline_counter)
+
+	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+
+	    			$(".back").fadeIn()
+
+	    		} else if (timeline_counter == timeline.length-1) {
+	    			timeline_counter = 0
+	    			console.log(timeline[timeline_counter].title)
+	    			console.log(timeline_counter)
+	    			$(".timeline-content").addClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+	    		}
+
+	    	})
+
+	    	$(".back").on("click", function(){
+
+	    		if (timeline_counter == 0) {
+	    			timeline_counter = 5;
+	    			console.log(timeline[timeline_counter].title)
+	    			console.log(timeline_counter)
+
+	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
+
+	    			$(".back").fadeIn()
+
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+
+	    		} else if (timeline_counter == 1) {
+	    			timeline_counter--;
+	    			console.log(timeline[timeline_counter].title)
+	    			console.log(timeline_counter)
+	    			$(".timeline-content").addClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
+
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+	    		
+	    		} else if ((timeline_counter > 1) && (timeline_counter < timeline.length)) {
+	    			timeline_counter--;
+	    			console.log(timeline[timeline_counter].title)
+	    			console.log(timeline_counter)
+	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
+
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+
+	    		}
+
+	    	})
+
+	});
+
+
+
 }); //end document.ready block

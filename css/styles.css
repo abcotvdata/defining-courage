@@ -34,6 +34,7 @@ font-style: normal;*/
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 img {
@@ -313,6 +314,63 @@ video {
 .popup-desc {
    width: 60%;
    padding: 20px;
+}
+
+.timeline-container {
+   height: 100vh;
+   width: 100%;
+   position: relative;
+}
+
+#map {
+   height: 90vh;
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+
+
+.back, .next {
+   width: 70px;
+   position: absolute;
+   top: 40vh;
+   z-index: 750;
+   cursor: pointer;
+}
+
+.back {
+   left: 5px;
+   display: none;
+}
+
+.next {
+   right: 5px;
+}
+
+.timeline-content{
+   position: absolute;
+   top: 10vh;
+   width: 50%;
+   z-index: 700;
+   
+}
+
+.segment0{
+   position: absolute;
+   top: 30vh;
+   width: 100%;
+   text-align: center;
+}
+
+.segment-title {
+   color: #120f41;
+   font-family: le-monde-livre-classic-byol, serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 3em;
+   color: #120f41;
+   text-align: center;
 }
 
 
