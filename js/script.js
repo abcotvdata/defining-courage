@@ -16,22 +16,28 @@ $(document).ready(function(){ // begin document.ready block
 
 	    	for (i = 0; i < gallery.length; i++) {
 	    		console.log(gallery[i].name)
-	    		$('.photos-grid').append('<div class="photo" photo_id="'+gallery[i]+'"><img src="'+gallery[i].img+'"><div class="img-caption">'+gallery[i].name+'</div></div>')
+	    		$('.photos-grid').append('<div class="photo" photo_id="'+gallery[i].index+'"><img src="'+gallery[i].img+'"><div class="img-caption">'+gallery[i].name+'</div></div>')
 	    	}
+
+	    	$(".photos-grid").on("click", ".photo", function(){
+				var id = Number($(this).attr("photo_id"))
+				console.log(id)
+
+				$(".popup-photo img").attr("src", gallery[id].img)
+				$(".popup-desc").html('<h2>'+gallery[id].name+'</h2><h3>'+gallery[id].born+'-'+gallery[id].died+'</h3>'+gallery[id].desc)
+
+
+				$(".popup-container").fadeIn()
+			});
+
+			$(".exit").on("click", function(){
+
+				$(".popup-container").fadeOut()
+			});
 	});
 
 
-	$(".photos-grid").on("click", ".photo", function(){
-		var id = $(this).attr("photo_id")
-		console.log(id)
-
-		$(".popup-container").fadeIn()
-	});
-
-	$(".exit").on("click", function(){
-
-		$(".popup-container").fadeOut()
-	});
+	
 
 
 
@@ -92,7 +98,8 @@ $(document).ready(function(){ // begin document.ready block
 	    			console.log(timeline[timeline_counter].title)
 	    			console.log(timeline_counter)
 
-	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
+	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
+	    			
 	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
 
 	    			$(".back").fadeIn()
@@ -110,11 +117,11 @@ $(document).ready(function(){ // begin document.ready block
 	    	$(".back").on("click", function(){
 
 	    		if (timeline_counter == 0) {
-	    			timeline_counter = 5;
+	    			timeline_counter = timeline.length-1;
 	    			console.log(timeline[timeline_counter].title)
 	    			console.log(timeline_counter)
 
-	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
+	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
 
 	    			$(".back").fadeIn()
 
@@ -132,7 +139,7 @@ $(document).ready(function(){ // begin document.ready block
 	    			timeline_counter--;
 	    			console.log(timeline[timeline_counter].title)
 	    			console.log(timeline_counter)
-	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
+	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
 
 	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
 

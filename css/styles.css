@@ -297,6 +297,8 @@ video {
    background-color: white;
    box-shadow: 0px 0px 5px black;
    display: flex;
+   align-items: center;
+   padding: 20px;
 }
 
 .exit {
@@ -351,6 +353,7 @@ video {
 .timeline-content{
    position: absolute;
    top: 10vh;
+   left: 10%;
    width: 50%;
    z-index: 700;
    
@@ -359,6 +362,7 @@ video {
 .segment0{
    position: absolute;
    top: 30vh;
+   left: 0%;
    width: 100%;
    text-align: center;
 }
@@ -370,7 +374,54 @@ video {
    font-style: normal;
    font-size: 3em;
    color: #120f41;
+}
+
+.title0 {
    text-align: center;
+}
+
+.segment-content {
+   display: flex;
+}
+
+.segment-photo {
+   width: 40%;
+   margin: auto;
+   padding-right: 10px;
+}
+
+.segment-desc {
+   font-family: urw-din, sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   width: 60%;
+   margin: auto;
+}
+
+.david-photo {
+   width: 50%;
+   margin: auto;
+   float: left;
+   padding-right: 10px;
+}
+
+.footer {
+   font-family: urw-din, sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   text-align: center;
+   width: 80%;
+   margin: auto;
+   margin-top: 100px;
+   padding: 20px 0px;
+   font-size: 15px;
+}
+
+.scrolltitle {
+   font-family: le-monde-livre-classic-byol, serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 18px;
 }
 
 
