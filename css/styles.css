@@ -77,6 +77,23 @@ video {
    left: 0px;
    width: 100%;
  }
+
+ #title-header {
+   animation-name: fadeInTitle; animation-duration: 2s; animation-fill-mode: forwards; animation-iteration-count: 1;
+ }
+
+
+ @keyframes fadeInTitle {
+   0% {transform: scale(0.5); opacity: 0;}
+   20% {transform: scale(0.5); opacity: 0;}
+   100% {transform: scale(1); opacity: 1;}
+ }
+
+/* @keyframes fadeInSoldiers {
+   0% {opacity: 0;}
+   50% {opacity: 0;}
+   100% {opacity: 1;}
+ }*/
    
 
 .header-img {
@@ -133,13 +150,69 @@ video {
    cursor: pointer;
 } 
 
-#about-section { animation-name: fadeInOne; animation-duration: 3.5s; animation-fill-mode: forwards; animation-iteration-count: 1;}
+.menu-popout {
+   position: relative;
+   background-color: rgba(255, 255, 255, 0.5);
+   height: 100vh;
+   padding: 20px;
+   display: none;
+}
 
-#who-section { animation-name: fadeInTwo; animation-duration: 4s; animation-fill-mode: forwards; animation-iteration-count: 1;}
+.menu-sections {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 20px;
+   margin-top: 10vh;
+}
 
-#timeline-section { animation-name: fadeInThree; animation-duration: 4.5s; animation-fill-mode: forwards; animation-iteration-count: 1;}
+.menu-exit {
+   width: 26px;
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   cursor: pointer;
+}
 
-#david-section { animation-name: fadeInFour; animation-duration: 5s; animation-fill-mode: forwards; animation-iteration-count: 1;}
+.menu-sections a {
+   color: #120f41;
+   text-decoration: none;
+}
+
+.menu-sections a:visited {
+   color: #120f41;
+   text-decoration: none;
+}
+
+.menu-button {
+   border: 1px solid #120f41;
+   background-color: rgba(255, 255, 255, 0.5);
+   padding: 2px;
+   cursor: pointer;
+   font-family: urw-din, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   align-items: center;
+   color: #120f41;
+   width: auto;
+} 
+
+.menu-button:hover {
+   transform: scale(1.1);
+   box-shadow: 0px 0px 3px rgb(123, 17, 60);
+}
+
+
+#about-section { animation-name: fadeInOne; animation-duration: 2.5s; animation-fill-mode: forwards; animation-iteration-count: 1;}
+
+#who-section { animation-name: fadeInTwo; animation-duration: 2.75s; animation-fill-mode: forwards; animation-iteration-count: 1;}
+
+#timeline-section { animation-name: fadeInThree; animation-duration: 3s; animation-fill-mode: forwards; animation-iteration-count: 1;}
+
+#characters-section { animation-name: fadeInFour; animation-duration: 3.25s; animation-fill-mode: forwards; animation-iteration-count: 1;}
+
+#camps-section { animation-name: fadeInFive; animation-duration: 3.5s; animation-fill-mode: forwards; animation-iteration-count: 1;}
+
+#david-section { animation-name: fadeInSix; animation-duration: 4s; animation-fill-mode: forwards; animation-iteration-count: 1;}
 
 
 
@@ -167,12 +240,41 @@ video {
    100% { opacity: 1; }
 }
 
+@keyframes fadeInFive {
+   0% { opacity: 0; }
+   70% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+@keyframes fadeInSix {
+   0% { opacity: 0; }
+   70% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+
+
 #content {
    padding-top: 70px;
    background: rgb(255,255,255);
    background: linear-gradient(0deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 90%, rgba(255,255,255,0) 100%);
    position: relative;
    z-index: 1;
+}
+
+.menu {
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   z-index: 800;
+   display: none;
+}
+
+.hamburger {
+   width: 50px;
+   margin-top: 10px;
+   margin-left: 10px;
+   cursor: pointer;
 }
 
 .section {
@@ -199,7 +301,12 @@ video {
    font-family: urw-din, sans-serif;
    font-weight: 500;
    font-style: normal;
+   font-size: 18px;
 
+}
+
+.section-directions {
+   text-align: center;
 }
 
 .section-video {
@@ -235,7 +342,7 @@ video {
    }
 
 
-.photos-grid {
+.photos-grid, .char-grid {
    display: grid;
    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
    grid-gap: 10px;
@@ -319,9 +426,10 @@ video {
 }
 
 .timeline-container {
-   height: 100vh;
+   height: 90vh;
    width: 100%;
    position: relative;
+   background-color: white;
 }
 
 #map {
@@ -330,6 +438,7 @@ video {
    position: absolute;
    top: 0px;
    left: 0px;
+   opacity: 0.6;
 }
 
 
@@ -356,6 +465,7 @@ video {
    left: 10%;
    width: 50%;
    z-index: 700;
+
    
 }
 
@@ -372,7 +482,7 @@ video {
    font-family: le-monde-livre-classic-byol, serif;
    font-weight: 500;
    font-style: normal;
-   font-size: 3em;
+   font-size: 2.5em;
    color: #120f41;
 }
 
@@ -395,6 +505,11 @@ video {
    font-weight: 500;
    font-style: normal;
    width: 60%;
+   margin: auto;
+}
+
+.map-of-camps {
+   max-width: 1020px;
    margin: auto;
 }
 

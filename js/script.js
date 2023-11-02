@@ -9,22 +9,196 @@ $(document).ready(function(){ // begin document.ready block
 
 	//jquery code here
 
-	$.get('photo-gallery.csv', function(csvString) {
+
+	$("#content").waypoint(function(dir){
+		if (dir=="down") {
+			$(".menu").fadeIn()			
+
+		} else if (dir=="up") {
+			$(".menu").fadeOut()	
+
+		}
+	});
+
+	$(".hamburger").click(function(){
+		$(this).hide()
+		$(".menu-popout").slideDown()
+	});
+
+	$(".menu-exit").click(function(){
+		$(".menu-popout").slideUp()
+		$(".hamburger").show()
+	});
+
+	$("#back-to-top-button").click(function(){
+		$(".menu-popout").slideUp()
+		$(".hamburger").show()
+	});	
+
+	$("#about").waypoint(function(dir){
+		if (dir=="down") {
+			$("#about-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})
+			$("#who-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#timeline-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#more-characters-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#camps-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})				
+
+		} else if (dir=="up") {
+			$(".menu-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+		}
+	}, { offset: '20%' });
+
+	$("#who").waypoint(function(dir){
+		if (dir=="down") {
+			$("#about-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#who-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})	
+			$("#timeline-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#char-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#camps-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+
+		} else if (dir=="up") {
+			$("#about-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})
+			$("#who-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#timeline-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#char-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#camps-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+		}
+	}, { offset: '20%' });
+
+	$("#timeline").waypoint(function(dir){
+		if (dir=="down") {
+			$("#about-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#who-button").css({"transform": "scale(1)", "box-shadow": "none"})		
+			$("#timeline-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})	
+			$("#char-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#camps-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+
+		} else if (dir=="up") {
+			$("#about-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#who-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})
+			$("#timeline-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#char-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#camps-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+		}
+	}, { offset: '20%' });
+
+	$("#more-characters").waypoint(function(dir){
+		if (dir=="down") {
+			$("#about-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#who-button").css({"transform": "scale(1)", "box-shadow": "none"})		
+			$("#timeline-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#char-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})
+			$("#camps-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+
+		} else if (dir=="up") {
+			$("#about-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#who-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#timeline-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})	
+			$("#char-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#camps-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+		}
+	}, { offset: '20%' });
+
+	$("#camps-map").waypoint(function(dir){
+		if (dir=="down") {
+			$("#about-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#who-button").css({"transform": "scale(1)", "box-shadow": "none"})		
+			$("#timeline-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#char-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#camps-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+
+		} else if (dir=="up") {
+			$("#about-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#who-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#timeline-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#char-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})
+			$("#camps-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+		}
+	}, { offset: '20%' });
+
+	$("#david").waypoint(function(dir){
+		if (dir=="down") {
+			$("#about-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#who-button").css({"transform": "scale(1)", "box-shadow": "none"})		
+			$("#timeline-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#char-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#camps-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#david-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})
+
+
+		} else if (dir=="up") {
+			$("#about-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#who-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+			$("#timeline-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#char-button").css({"transform": "scale(1)", "box-shadow": "none"})
+			$("#camps-button").css({"transform": "scale(1.1)", "box-shadow": "0px 0px 3px rgb(123, 17, 60)"})
+			$("#david-button").css({"transform": "scale(1)", "box-shadow": "none"})	
+
+		}
+	});
+
+
+	$.get('nisei.csv', function(csvString) {
 
 			// Use PapaParse to convert string to array of objects
-	    	var gallery = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
+	    	var nisei = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
 
-	    	for (i = 0; i < gallery.length; i++) {
-	    		console.log(gallery[i].name)
-	    		$('.photos-grid').append('<div class="photo" photo_id="'+gallery[i].index+'"><img src="'+gallery[i].img+'"><div class="img-caption">'+gallery[i].name+'</div></div>')
+	    	for (i = 0; i < nisei.length; i++) {
+	    		console.log(nisei[i].name)
+	    		$('.photos-grid').append('<div class="photo" photo_id="'+nisei[i].index+'"><img src="'+nisei[i].img+'"><div class="img-caption">'+nisei[i].name+'</div></div>')
 	    	}
 
 	    	$(".photos-grid").on("click", ".photo", function(){
 				var id = Number($(this).attr("photo_id"))
 				console.log(id)
 
-				$(".popup-photo img").attr("src", gallery[id].img)
-				$(".popup-desc").html('<h2>'+gallery[id].name+'</h2><h3>'+gallery[id].born+'-'+gallery[id].died+'</h3>'+gallery[id].desc)
+				$(".popup-photo img").attr("src", nisei[id].img)
+				$(".popup-desc").html('<h2>'+nisei[id].name+'</h2><h3>'+nisei[id].regiment+'</h3><h3>'+nisei[id].born+'-'+nisei[id].died+'</h3>'+nisei[id].desc)
+
+
+				$(".popup-container").fadeIn()
+			});
+
+			$(".exit").on("click", function(){
+
+				$(".popup-container").fadeOut()
+			});
+	});
+
+	$.get('photo-gallery.csv', function(csvString) {
+
+			// Use PapaParse to convert string to array of objects
+	    	var characters = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
+
+	    	for (i = 0; i < characters.length; i++) {
+	    		console.log(characters[i].name)
+	    		$('.char-grid').append('<div class="photo" photo_id="'+characters[i].index+'"><img src="'+characters[i].img+'"><div class="img-caption">'+characters[i].name+'</div></div>')
+	    	}
+
+	    	$(".char-grid").on("click", ".photo", function(){
+				var id = Number($(this).attr("photo_id"))
+				console.log(id)
+
+				$(".popup-photo img").attr("src", characters[id].img)
+				$(".popup-desc").html('<h2>'+characters[id].name+'</h2><h3>'+characters[id].regiment+'</h3><h3>'+characters[id].born+'-'+characters[id].died+'</h3>'+characters[id].desc)
 
 
 				$(".popup-container").fadeIn()
@@ -65,14 +239,20 @@ $(document).ready(function(){ // begin document.ready block
 	map.createPane('labels');
 	map.getPane('labels').style.zIndex = 650;
 
-	var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
-        attribution: '&copyOpenStreetMap, &copyCartoDB'
-	}).addTo(map);
+	// var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+ //        attribution: '&copyOpenStreetMap, &copyCartoDB'
+	// }).addTo(map);
+
 
 	var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
 	    attribution: '&copyOpenStreetMap, &copyCartoDB',
 	    pane: 'labels'
 	}).addTo(map);
+
+	var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+		attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+	}).addTo(map);	
+
 
 	map.touchZoom.disable();
 	map.doubleClickZoom.disable();
@@ -100,16 +280,19 @@ $(document).ready(function(){ // begin document.ready block
 
 	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
 	    			
-	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:3});
 
 	    			$(".back").fadeIn()
+
+	    			$(".esri-tile").animate({"opacity": "1"})
 
 	    		} else if (timeline_counter == timeline.length-1) {
 	    			timeline_counter = 0
 	    			console.log(timeline[timeline_counter].title)
 	    			console.log(timeline_counter)
 	    			$(".timeline-content").addClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
-	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:3});
+	    			$(".esri-tile").animate({"opacity": "0"})
 	    		}
 
 	    	})
@@ -125,7 +308,7 @@ $(document).ready(function(){ // begin document.ready block
 
 	    			$(".back").fadeIn()
 
-	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:3});
 
 	    		} else if (timeline_counter == 1) {
 	    			timeline_counter--;
@@ -133,7 +316,7 @@ $(document).ready(function(){ // begin document.ready block
 	    			console.log(timeline_counter)
 	    			$(".timeline-content").addClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div>')
 
-	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:3});
 	    		
 	    		} else if ((timeline_counter > 1) && (timeline_counter < timeline.length)) {
 	    			timeline_counter--;
@@ -141,7 +324,7 @@ $(document).ready(function(){ // begin document.ready block
 	    			console.log(timeline_counter)
 	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
 
-	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:2});
+	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:3});
 
 	    		}
 
