@@ -170,8 +170,10 @@ $(document).ready(function(){ // begin document.ready block
 				var id = Number($(this).attr("photo_id"))
 				console.log(id)
 
+				$("html").css({"overflow":"hidden"})
+
 				$(".popup-photo img").attr("src", nisei[id].img)
-				$(".popup-desc").html('<h2>'+nisei[id].name+'</h2><h3>'+nisei[id].regiment+'</h3><h3>'+nisei[id].born+'-'+nisei[id].died+'</h3>'+nisei[id].desc)
+				$(".popup-desc").html('<h2>'+nisei[id].name+'</h2><h3>'+nisei[id].regiment+'</h3>'+nisei[id].desc+'<i><a href="'+nisei[id].link+'" target="_blank">Read more about '+nisei[id].name+' here.<a></i>')
 
 
 				$(".popup-container").fadeIn()
@@ -180,6 +182,7 @@ $(document).ready(function(){ // begin document.ready block
 			$(".exit").on("click", function(){
 
 				$(".popup-container").fadeOut()
+				$("html").css({"overflow":"scroll"})
 			});
 	});
 

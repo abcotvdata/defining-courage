@@ -1,392 +1,258 @@
 ﻿position,title,photo,lat,long,zoom,desc
 0,Click the arrow to start,,32.6142717,-39.7266562,3,
-1,Statue of Liberty/Ellis Island,img/placeholder-headshot.png,40.6883107,-74.0483708,13,"<p> Timeline description 1: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+1,"Pearl Harbor, Hawaii",img/placeholder-headshot.png,21.3529822,-158.0333761,12,"<p>The Nisei watched as Japan bombed Pearl Harbor, their homeland. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-2,"Montecasino, Italy",img/placeholder-headshot.png,41.4966883,13.7810584,12,"<p> Timeline description 2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-3,"Pearl Harbor, Hawaii",img/placeholder-headshot.png,21.3529822,-158.0333761,12,"<p> Timeline description 3: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>Without question, they wanted to fight back. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-4,"McKinley High School, Honolulu, Hawaii",img/placeholder-headshot.png,21.299207,-157.8550406,15,"<p> Timeline description 4: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-5,"Punchbowl Cemetery, Honolulu, Hawaii",img/placeholder-headshot.png,21.3121427,-157.8485866,15,"<p> Timeline description 5: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>The Hawaii Territorial Guard’s 298th and 299th infantry regiments were reformed into the first all-Nisei unit, the 100th Infantry Battalion. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-6,"Heart Mountain, Wyoming (internment camp)",img/placeholder-headshot.png,44.5716072,-109.3570311,10,"<p> Timeline description 6: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-7,"Iolani Palace, Honolulu",img/placeholder-headshot.png,21.3067622,-157.8613446,15,"<p> Timeline description 7: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>Affectionately known as “One Puka Puka,” their first fight was not on the battlefield, but against prejudice. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-8,"Pietrasanta, Italy",img/placeholder-headshot.png,43.9477613,10.1662182,12,"<p> Timeline description 8: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-9,"Apennine Mountains, Italy",img/placeholder-headshot.png,42.19729,11.1228746,7,"<p> Timeline description 9: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>So distrusted, the army even took their guns away at one point. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-10,Mount Fogorito,img/placeholder-headshot.png,,,8,"<p> Timeline description 10: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-11,Georgia Hill,img/placeholder-headshot.png,,,8,"<p> Timeline description 11: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>When they finally got them back and joined the fight, that disrespect fueled their passion to prove themselves, with the mottos “Remember Pearl Harbor” and “Go for Broke.” </p> "
+2,"McKinley High School, Honolulu, Hawaii",img/placeholder-headshot.png,21.2986626,-157.8486777,17,"<p>The 100th Infantry Battalion was activated in June, 1942. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-12,"Palm Beach, Florida.",img/placeholder-headshot.png,,,8,"<p> Timeline description 12: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>Many of the 100th went to McKinley High School in Honolulu. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-13,"Manzanar, California (internment camp)",img/placeholder-headshot.png,,,8,"<p> Timeline description 13: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-14,"Evergreen cemetery, East Los Angeles",img/placeholder-headshot.png,,,8,"<p> Timeline description 14: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>Today, bullet holes from the attack on Pearl Harbor still scar the schoolhouse. Just feet from them, there is a plaque with 114 names: Nisei students from these hallowed halls, who died in the war. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-15,"San Terenzo Monti, Italy",img/placeholder-headshot.png,,,8,"<p> Timeline description 15: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-16,"Japanese American National Museum, Los Angeles",img/placeholder-headshot.png,,,8,"<p> Timeline description 16: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>It was sobering back then to open the school paper and see the bright innocent faces of young men who never came home. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-17,"Little Tokyo, Los Angeles",img/placeholder-headshot.png,,,8,"<p> Timeline description 17: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-18,"Bavaria, Germany",img/placeholder-headshot.png,,,8,"<p> Timeline description 18: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>Far too many of them fell. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-19,"Munich, Germany",img/placeholder-headshot.png,,,8,"<p> Timeline description 19: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ "
+3,"Manzanar, California (Internment Camp)",img/placeholder-headshot.png,36.7272288,-118.1527894,10,"<p>442nd Regimental Combat Team was activated on February 1, 1943. Many were from camps like Manzanar. The maximum population reached 10,046 people on September 22, 1942. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-20,"Dachau, Germany",img/placeholder-headshot.png,,,8,"<p> Timeline description 20: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>At camps across the country, the American government locked up 120,000 innocent Japanese Americans from the west coast. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-21,"Waakirchen, Germany",img/placeholder-headshot.png,,,8,"<p> Timeline description 21: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-22,"Tel Aviv, Israel",img/placeholder-headshot.png,,,8,"<p> Timeline description 22: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>They lost everything, including their dignity, by having to live in pitiful barracks, behind barbed wire, in the harshest of conditions. </p> "
+4,"Monte Cassino, Italy",img/placeholder-headshot.png,41.4966883,13.7810584,12,"<p>Two hours south of Rome is the beautiful town of Monte Cassino, home to a picturesque molten mountain where there are remnants of a medieval castle and an Abbey that has been there, in some form, for 1,500 years. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-23,"Okinawa, Japan",img/placeholder-headshot.png,,,8,"<p> Timeline description 23: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-24,Saipan,img/placeholder-headshot.png,,,8,"<p> Timeline description 24: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>During World War II, that Abbey was the central figure in one of the bloodiest battles in all of Italy. The Germans controlled the mountain top and bombarded the highway below. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-25,"Kona, Hawaii",img/placeholder-headshot.png,,,8,"<p> Timeline description 25: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-26,"Cape Kyan, Okinawa, Japan",img/placeholder-headshot.png,,,8,"<p> Timeline description 26: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>The Nisei were ordered to attack it. And they did, over and over again. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-27,"Vosges Mountain Range, France",img/placeholder-headshot.png,,,8,"<p> Timeline description 27: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-28,"Maui, Hawaii",img/placeholder-headshot.png,,,8,"<p> Timeline description 28: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>They attacked with such fury, war correspondents called them “Little Men of Iron” They sacrificed life and limb, earning another moniker “The Purple Heart Battalion.” </p>  
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-29,"Bruyeres, France",img/placeholder-headshot.png,,,8,"<p> Timeline description 29: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
-30,"Epinal Cemetary, France ",img/placeholder-headshot.png,,,8,"<p> Timeline description 30: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p>But, rare courage and incredible effort would not be enough. </p> 
 
-    		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>"
+ 
+
+<p>After a month of fighting, a fleet of U-S bombers reduced the Abbey to rubble. Something they could have done on day one, before a single life was lost. </p> 
+
+ 
+
+<p>The 100th’s losses were staggering. They landed in Italy with 1,300 men. By the time they were pulled from Monte Casino, they had only 500 left. </p> "
+5,Saipan,img/placeholder-headshot.png,15.1933468,145.6779851,12,"<p>This is where a whole different kind of Nisei Soldier comes in. It’s a branch called the Military Intelligence Service, or MIS. These Japanese Americans had language skills. </p> 
+
+ 
+
+<p>Unlike the 100th/442nd in Europe, the MIS went to the Pacific. They helped our military decipher Japanese transmissions, with remarkable success. </p> 
+
+ 
+
+<p>On the battlefield they snuck behind enemy lines and listened in on secret plans. </p> 
+
+ 
+
+<p>Bob Kubo, who was from McKinley High School, famously and heroically lowered himself with a rope on the side of a cliff to a cave where a handful of Japanese soldiers were holding Saipan civilians hostage, all of them preparing to die. </p> 
+
+ 
+
+<p>As the sun set, Kubo emerged from the cave with 8 Japanese soldiers and 122 hostages, their lives saved. </p> "
+6,"San Terenzo Monti, Italy",img/placeholder-headshot.png,44.1726404,10.0435765,14,"<p>In the mountains of Tuscany lies a picturesque hamlet called San Terenzo Monti. </p> 
+
+ 
+
+<p>It’s tiny, isolated and barely noticed. Dating back to the Middle Ages, its beauty is in its ancient simplicity. There are no tourists, nothing modern. For the few that live here, they cherish their history. </p> 
+
+ 
+
+<p>On a late summer afternoon in 1944, the Germans, occupying the town, rounded them up and executed them. 184 people, most of the town, killed in cold blood. </p> 
+
+ 
+
+<p>The majority were women and children. </p> 
+
+ 
+
+<p>Just months after the massacre, the Nisei fought their way into town, crushing the Germans. </p> "
+7,"Bruyeres, France",img/placeholder-headshot.png,48.2155007,6.6726983,12,"<p>Bruyeres is a beautiful and charming village. About 75 years ago, it had to endure terrible atrocities at the hands of the Germans. </p> 
+
+<p>The Battle of Bruyeres raged through the buildings in the town, the farmhouses, forests and the hills nearby. Teenage members of the French resistance were told to go out into the forest, find the Americans and help lead them safely into town so they could launch their attack. </p> 
+
+ 
+
+<p>They were never told the Americans were Asian, which was confusing, but once they realized who these soldiers were, they were in awe. They described the Nisei as steely hard and fearless. The Nisei told the teens, “just show us the way” we’ll take care of the rest. </p> 
+
+ 
+
+<p>The battle raged for five violent days. Bullet holes are scattered throughout the community, a reminder of the violence. </p> "
+8,The Rescue of the Lost Battalion ,img/placeholder-headshot.png,48.2155007,6.6726983,10,"<p>The Nisei were exhausted, beat up, their numbers depleted. Even though rest was promised to these weary men, it never came. </p> 
+
+ 
+
+<p>Because 220 men from the 1st Battalion, 141st regiment, known as Texans, found themselves trapped and surrounded by the Germans. </p> 
+
+ 
+
+<p>About 6,000 German troops were in that forest, closing in on them. The most storied chapter in the Nisei’s incredible legacy was about to begin. </p> 
+
+ 
+
+<p>The Rescue of the Lost Battalion required the 100th and 442nd to fight for several days from tree to tree in that dense forest. It was during this fight that the Nisei had to adjust to a new kind of menace: Tree bursts. </p> 
+
+ 
+
+<p>German artillery was adjusted to explode at the top of the trees, so, not only was the blast and hot metal a problem, but also the splintering and falling wood. The trees were reduced to sticks. </p> 
+
+ 
+
+<p>In fact, even today, 75 years later, every tree cut down in this forest has to be x-rayed because they are filled with shrapnel. </p> "
+9,"Okinawa, Japan",img/placeholder-headshot.png,26.387045,127.5875883,10,"<p>It was by far the toughest and bloodiest battle in the pacific. Okinawa sits on the doorstep of mainland Japan. </p> 
+
+ 
+
+<p>Japan would defend this island with everything it had. </p> 
+
+ 
+
+<p>It's important to know that Okinawans see themselves as different from Japanese. They were once their own nation with their own culture, language and food. They can be described as an Indigenous population that was largely treated unfairly, as secondary citizens, by imperial Japan. </p> 
+
+ 
+
+<p>Yet here they were, peaceful people, stuck right in the middle of two angry powerful nations. Imperial Japan told its citizens the Americans were “demons,” that they would rape the women, torture the men and eat the children. </p> 
+
+ 
+
+<p>“Fight them or die. But do not surrender to them.” </p> 
+
+ 
+
+<p>These were lies that were pounded into the minds of the innocent and unknowing 150,000 innocent Okinawan civilians that died in this one battle. But many more lived, thanks to the incredible kindness and courage of the Nisei Soldier. </p> "
+10,"Pietrasanta, Italy",img/placeholder-headshot.png,43.9576587,10.1932536,12,"<p>Pietrasanta is a town that was once the home of Michelangelo. As a sculptor he would harvest beautiful slabs of marble from the Apennine mountains above the town. </p> 
+
+ 
+
+<p>Late in the war, the mountain range was better known as the Gothic Line. Hitler’s army had moved further north. It was a stronghold that, for several months, seemed impenetrable. </p> 
+
+ 
+
+<p>From 1944, until late spring of 1945, attack after allied attack failed. The forces couldn’t break it and thousands of men died trying. </p> 
+
+ 
+
+<p>But in April, 1945 the U.S. Army decided to try a new approach: Launch a sneak attack in the middle of night. They knew it would take a special, tough, highly trained and accomplished unit to pull it off. The 100th/442nd. </p> "
+11,Monte Folgorito,img/placeholder-headshot.png,44.0195864,10.1992812,15,"<p>For historians, this battle is legendary. </p> 
+
+ 
+
+<p>The Nisei climbing a steep cliff in the middle of night. It was a dangerous and frightening climb that meant life or death. </p> 
+
+ 
+
+<p>The Germans were using Monte Folgorito as a lookout, directing artillery on to the Americans below. </p> 
+
+ 
+
+<p>It was vitally important to capture. The 442nd had to climb it in pitch black conditions and total silence. Some men did fall, quietly, so as to not give their brothers away. </p> 
+
+ 
+
+<p>A farmhouse still sits at the base of the cliff next to a river. It was used back then as a field hospital. </p> 
+
+ 
+
+<p>With quiet resolve the 442nd took up a position just outside the bunker at the peak. They hid there and waited for dawn to break. And when it did, they moved like lightning, taking the Germans by complete surprise. </p> 
+
+ 
+
+<p>The enemy either died, ran or surrendered. Folgorito was ours in a matter of seconds. </p> 
+
+ "
+12,Georgia Hill,img/placeholder-headshot.png,44.0195864,10.1992812,10,"<p>Folgorito was only one part of the story. There were two objectives that morning. Georgia Hill was the other. </p> 
+
+ 
+
+<p>It has a strategic value, sitting just above the coastline. Capturing it would rest with the mighty 100th. </p> 
+
+ 
+
+<p>The Germans were dug in at the top ready and waiting, having successfully defended this position for months. This would be a violent fight. </p> 
+
+ 
+
+<p>On that fateful night, the 100th quietly made their way up Georgia Hill and got into position. At the break of dawn, simultaneous with the 442nd a couple of miles away on Mount Fogorito, the fierce 100th launched their attack. </p> 
+
+ 
+
+<p>It was brutal. </p> "
+13,"Dachau, Germany",img/placeholder-headshot.png,48.268214,11.3976912,8,"<p>The Nisei Soldier’s Artillery unit, the 522nd, had developed a reputation as the elite of the army. So, General George Patton made them the “tip of the spear” as his forces rolled into Germany. </p> 
+
+ 
+
+<p>The Dachau Death March was Hitler's plan to move all his Jewish prisoners away from the front lines, so he could continue to use their slave labor for his war machine. </p> 
+
+ 
+
+<p>During the March, thousands of starving prisoners just couldn’t move fast enough. They were shot as they fell behind, but a bullet wasn’t even necessary for many. </p> 
+
+ 
+
+<p>The Germans realized they couldn't outrun the approaching Americans, so they started to shoot as many as possible. </p> 
+
+ 
+
+<p>Some Nisei Soldiers rescued and cared for the prisoners until help could arrive, and they were also involved in the liberation of Dachau. </p> 
+
+ 
+
+<p>Our own government sent photographers to document the liberation of Dachau, but, according to witnesses, the Nisei were moved out of the shot, and Caucasian soldiers were moved in. It took 50 years for our government to finally admit the Nisei were there. </p> "
+14,Washington D.C.,,38.8755519,-77.1333776,,"<p>After the war, there was a remarkable moment that came from the very top. </p> 
+
+ 
+
+<p>In July, 1946, President Harry S. Truman greeted the 442nd at the Ellipse of the White House and presented them with their 8th Presidential Unit Citation. </p> 
+
+ 
+
+<p>While awarding these brave Americans yet another Presidential Unit Citation, President Truman famously revealed great understanding about these heroes, and he said it in front of a country that had to change. </p> 
+
+ 
+
+<p>“You fought not only the enemy, but you fought prejudice, and you won.” </p> 
+
+ 
+
+<p>Those words have been treasured and repeated since that moment. But there’s more to the quote that has largely been forgotten. </p> 
+
+ 
+
+<p>Truman went on to say, “keep up the fight, and we will continue to win.” </p> "
