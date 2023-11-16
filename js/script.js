@@ -281,7 +281,7 @@ $(document).ready(function(){ // begin document.ready block
 	    			console.log(timeline[timeline_counter].title)
 	    			console.log(timeline_counter)
 
-	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
+	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2><h3>'+timeline[timeline_counter].date+'</h3></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
 	    			
 	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:3});
 
@@ -307,7 +307,7 @@ $(document).ready(function(){ // begin document.ready block
 	    			console.log(timeline[timeline_counter].title)
 	    			console.log(timeline_counter)
 
-	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
+	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2><h3>'+timeline[timeline_counter].date+'</h3></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
 
 	    			$(".back").fadeIn()
 
@@ -325,7 +325,7 @@ $(document).ready(function(){ // begin document.ready block
 	    			timeline_counter--;
 	    			console.log(timeline[timeline_counter].title)
 	    			console.log(timeline_counter)
-	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
+	    			$(".timeline-content").removeClass("segment0").html('<div class="segment-title title'+timeline[timeline_counter].position+'"><h2>'+timeline[timeline_counter].title+'</h2><h3>'+timeline[timeline_counter].date+'</h3></div><div class="segment-content"><div class="segment-photo"><img src="'+timeline[timeline_counter].photo+'"></div><div class="segment-desc">'+timeline[timeline_counter].desc+'</div></div>')
 
 	    			map.flyTo([timeline[timeline_counter].lat,timeline[timeline_counter].long], timeline[timeline_counter].zoom, {animate:true, duration:3});
 

@@ -569,6 +569,15 @@ video {
    line-height: 1.5em;
 }
 
+.segment-title h2 {
+   margin-bottom: 0px;
+}
+
+.segment-title h3 {
+   margin: 1px;
+   font-size: 20px;
+}
+
 
 
 
@@ -649,9 +658,9 @@ video {
       top: 20vh;
    }
 
-   .segment-title h2 {
+/*   .segment-title h2 {
       margin: 20px 0px;
-   }
+   }*/
 
 /*   .timeline-container {
       height: 110vh;
@@ -778,6 +787,10 @@ video {
 
    .back, .next {
       width: 30px;
+   }
+
+   .segment-desc {
+      font-size: 16px;
    }
 
 
