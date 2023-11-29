@@ -37,6 +37,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+   overflow-x: hidden;
+}
+
 img {
    width: 100%;
 }
@@ -148,7 +152,9 @@ video {
    display: flex;
    flex-wrap: wrap;
    align-items: center;
-   justify-content: space-around;
+   /*justify-content: space-around;*/
+   justify-content: space-evenly;
+   text-align: center;
    width: 100%;
    color: #120f41;
 
@@ -777,6 +783,7 @@ video {
       top: 230px;
    }
 
+
    .timeline-container {
       height: 1000px;
    }
@@ -797,12 +804,28 @@ video {
 
 }
 
+
+
 @media only screen and (max-width: 375px) {
 
    .button-absolute {
       top: 215px;
    }
 
+   .buttons {
+      font-size: 13px;
+   }
+
+   .section-button {
+      margin: 3px;
+   }
+
+}
+
+@media only screen and (max-width: 300px) {
+   .button-absolute {
+      top: 200px;
+   }
 }
 
 
