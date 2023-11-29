@@ -234,7 +234,8 @@ $(document).ready(function(){ // begin document.ready block
 
 	var map = L.map('map', {
 		minZoom: 3,
-		zoomControl: false
+		zoomControl: false,
+		scrollWheelZoom: false
 	}).setView([32.6142717,-39.7266562], 3);
 
 	// var pane = map.createPane('boundary', document.getElementById('map'));

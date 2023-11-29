@@ -520,6 +520,16 @@ video {
    background-color: white;
 }
 
+.timeline-overlay {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   /*background-color: rgba(0,0,0,0.5);*/
+   z-index: 749;
+}
+
 #map {
    height: 800px;
    width: 100%;
