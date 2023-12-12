@@ -336,6 +336,14 @@ video {
 
 }
 
+.section-text a {
+   color: #120f41;
+}
+
+.section-text a:visited {
+   color: #120f41;
+}
+
 .click-here-button {
    background-color: #120f41;
    padding: 10px;
